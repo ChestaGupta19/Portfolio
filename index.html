@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Chesta Gupta, a B.Tech CSE student, frontend developer, backend learner, ML and cybersecurity enthusiast." />
+  <title>Chesta Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="boot-screen" id="bootScreen">
+    <div class="boot-panel">
+      <p class="mono">security handshake</p>
+      <h1>Access Granted</h1>
+      <div class="scan-line"></div>
+      <span>Loading Chesta Gupta's interactive portfolio...</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Chesta Gupta home">CG</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
+      <span class="toggle-icon">D</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas id="matrixCanvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <p class="eyebrow">B.Tech CSE Student</p>
+        <h1>Chesta Gupta</h1>
+        <p class="tagline">Frontend Developer | Backend Learner | ML & Cybersecurity Enthusiast | Problem Solving Enthusiast</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="mailto:guptachesta943@gmail.com">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Building across interface, intelligence, and security.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="bold-lines">
+          <p>Crafting beautiful frontends.</p>
+          <p>Demystifying the backend.</p>
+          <p>Securing the perimeter.</p>
+        </div>
+        <div class="about-copy">
+          <p>I'm a <strong>Computer Science and Engineering</strong> student at <strong>Pranveer Singh Institute of Technology (PSIT), Kanpur</strong>, driven by continuous learning and the pursuit of solving meaningful real-world challenges through technology. With a strong foundation in <strong>Data Structures and Algorithms</strong>, I enjoy tackling complex challenges and transforming ideas into efficient, scalable solutions.</p>
+          <p>My problem-solving journey includes solving <strong>250+ coding problems in just 40 days</strong> across Codeforces and LeetCode, strengthening my analytical thinking, algorithmic skills, and ability to write clean, maintainable, and optimized code.</p>
+          <p>Beyond competitive programming, I'm continuously exploring emerging technologies and modern development practices. I enjoy building user-centric applications with a focus on performance, scalability, and great user experiences.</p>
+          <p>As a lifelong learner, I'm always looking for opportunities to collaborate on impactful projects, expand my technical expertise, and grow into a software engineer who creates meaningful and innovative solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>A colorful stack with a security mindset.</h2>
+      </div>
+      <div class="skills-layout">
+        <div class="orbit" aria-label="Skill orbit animation">
+          <div class="orbit-core">CG</div>
+          <span style="--i:0">C</span>
+          <span style="--i:1">C++</span>
+          <span style="--i:2">HTML</span>
+          <span style="--i:3">CSS</span>
+          <span style="--i:4">JS</span>
+          <span style="--i:5">Java</span>
+          <span style="--i:6">Python</span>
+          <span style="--i:7">SQL</span>
+        </div>
+        <div class="skill-cards" id="skillCards"></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>One shipped project now. More are being built in public.</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">Education & Achievements</p>
+        <h2>Learning, practicing, and solving consistently.</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <span class="timeline-dot"></span>
+          <p class="mono">2024-2028</p>
+          <h3>B.Tech in Computer Science and Engineering</h3>
+          <p>Pranveer Singh Institute of Technology (PSIT), Kanpur | AKTU | Percentage: 72%</p>
+        </article>
+        <article>
+          <span class="timeline-dot"></span>
+          <p class="mono">Class XII</p>
+          <h3>Senior Secondary Education</h3>
+          <p>Dr. Sone Lal Patel Public School | CBSE | Percentage: 76.2%</p>
+        </article>
+        <article>
+          <span class="timeline-dot"></span>
+          <p class="mono">Class X</p>
+          <h3>Secondary Education</h3>
+          <p>Air Force School, Kanpur Cantt | CBSE | Percentage: 86%</p>
+        </article>
+        <article>
+          <span class="timeline-dot"></span>
+          <p class="mono">Problem Solving</p>
+          <h3>250+ DSA and algorithmic problems</h3>
+          <p>Solved across LeetCode and Codeforces, strengthening DSA, algorithmic thinking, and clean implementation habits.</p>
+          <div class="profile-links">
+            <a href="https://codeforces.com/profile/Chesta_Gupta17" target="_blank" rel="noreferrer">Codeforces</a>
+            <a href="https://leetcode.com/u/Chesta_Gupta17" target="_blank" rel="noreferrer">LeetCode</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something useful.</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Open to internships and collaborations</h3>
+          <p>Frontend, full-stack learning roles, ML projects, and cybersecurity-focused product ideas.</p>
+          <div class="socials">
+            <a href="mailto:guptachesta943@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/chesta-gupta-155872380" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/ChestaGupta19" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <form class="contact-form" action="mailto:guptachesta943@gmail.com" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="your@email.com" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Designed and built for Chesta Gupta.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
