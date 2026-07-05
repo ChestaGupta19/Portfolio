@@ -1,8 +1,8 @@
-# Portfolio Website
+# Portfolio Website:
 
 This portfolio is built as a static website using HTML, CSS, and JavaScript. It can be deployed easily using GitHub Pages, Vercel, Netlify, or any static hosting platform.
 
-## Live Demo
+## Live Demo:
  
 If deployed on Vercel, the live URL will look similar to:
 
@@ -10,7 +10,7 @@ If deployed on Vercel, the live URL will look similar to:
 https://your-project-name.vercel.app
 ```
 
-## Features
+## Features:
 
 - Interactive hero section with animated cyber-style background
 - Access-granted loading animation
@@ -22,7 +22,7 @@ https://your-project-name.vercel.app
 - Contact form using `mailto:`
 - Clean static structure suitable for GitHub Pages and Vercel deployment
 
-## Tech Stack
+## Tech Stack:
 
 ### Frontend
 
@@ -56,7 +56,7 @@ https://your-project-name.vercel.app
 - Git
 - GitHub
 
-## Project Structure
+## Project Structure:
 
 ```text
 portfolio/
@@ -66,7 +66,7 @@ portfolio/
   README.md
 ```
 
-## Deployment Using GitHub Pages
+## Deployment Using GitHub Pages:
 
 1. Create a GitHub repository.
 2. Upload these files directly to the repository root:
@@ -97,7 +97,7 @@ Your GitHub Pages link will look like:
 https://your-username.github.io/repository-name/
 ```
 
-## Deployment Using Vercel
+## Deployment Using Vercel:
 
 1. Push or upload the project to GitHub.
 2. Go to [Vercel](https://vercel.com).
@@ -123,7 +123,7 @@ Example:
 https://portfolio.vercel.app
 ```
 
-## Important Notes
+## Important Notes:
 
 - Keep `index.html` in the root of the repository.
 - Do not place all files inside an extra folder when uploading to GitHub.
